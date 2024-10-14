@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main()
 {
-	int a,i,f;
+	int k,i,f;
 	printf("Enter the number :");
-	scanf("%d",&a);
+	scanf("%d",&k);
 	f=1;
-	for(i=1;i<=a;i++)
+	for(i=1;i<=k;i++)
 	{
 		f*=i;
 	}
